@@ -1,0 +1,49 @@
+/* Game Area */
+
+.game-area {
+    padding: 20px;
+    margin:0;
+    float: left;
+    width: 300px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Current Word */
+.current-header {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+    text-align: center;
+    color: #616161;
+    display: block;
+}
+
+.current-word {
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-align: center;
+    min-height: 35px;
+    color: #18252e;
+    display: block;
+}
+
+.word-box {
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-align: center;
+    min-height: 35px;
+    color: #18252e;
+    display: block;
+    width: 91%
+}
+
+.word-area {
+    padding: 30px 15px 0px 15px;
+    width: 100%;
+}
