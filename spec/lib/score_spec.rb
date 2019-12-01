@@ -19,32 +19,32 @@ describe Score do
     context 'When the word is valid and is of 3 characters' do
       let(:word) { 'sow' }
 
-      it 'returns 1 point' do
-        expect(calculator).to eql(1)
+      it 'returns 3 point' do
+        expect(calculator).to eql(3)
       end
     end
 
     context 'When the word is valid and is of 5 characters' do
       let(:word) { 'hello' }
 
-      it 'returns 2' do
-        expect(calculator).to eql(2)
+      it 'returns 5' do
+        expect(calculator).to eql(5)
       end
     end
 
     context 'When the word is valid and is of 6 characters' do
       let(:word) { 'abacus' }
 
-      it 'returns 3' do
-        expect(calculator).to eql(3)
+      it 'returns 6' do
+        expect(calculator).to eql(6)
       end
     end
 
     context 'When the word is valid and is of 7 characters' do
       let(:word) { 'abacist' }
 
-      it 'returns 4' do
-        expect(calculator).to eql(4)
+      it 'returns 7' do
+        expect(calculator).to eql(7)
       end
     end
 
