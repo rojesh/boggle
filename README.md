@@ -1,24 +1,24 @@
-# README
+# README FOR SETUP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Clone the repo
+git clone https://github.com/rojesh/boggle
 
-Things you may want to cover:
+## Go to the app directory
+cd boggle
 
-* Ruby version
+## Setup backend
+bundle install
+bundle exec rspec
 
-* System dependencies
+## Setup frontend
+cd boggle-app
+npm install
 
-* Configuration
+## Run in local environment
+cd ..  
+heroku local -f Procfile.dev
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
