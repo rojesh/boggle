@@ -10,13 +10,13 @@ git clone https://github.com/rojesh/boggle
 cd boggle
 ```
 
-## Setup backend
+## Setup Backend
 ```
 bundle install  
 bundle exec rspec
 ```
 
-## Setup frontend
+## Setup Frontend
 ```
 cd boggle-app  
 npm install
